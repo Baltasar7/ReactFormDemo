@@ -1,0 +1,88 @@
+{
+  "formArray": [
+    {
+      "type": "Textbox",
+      "label": "氏名",
+      "nestedArray": [
+        {
+          "field": ""
+        }
+      ]
+    },
+    {
+      "type": "Textbox",
+      "label": "年齢",
+      "nestedArray": [
+        {
+          "field": ""
+        }
+      ]
+    },
+    {
+      "type": "Radiobutton",
+      "label": "性別",
+      "nestedArray": [
+        {
+          "field": "男性"
+        },
+        {
+          "field": "女性"
+        },
+        {
+          "field": "回答しない"
+        }
+      ]
+    },
+    {
+      "type": "Selectbox",
+      "label": "職種",
+      "nestedArray": [
+        {
+          "field": "会社員"
+        },
+        {
+          "field": "自営業"
+        },
+        {
+          "field": "経営者"
+        },
+        {
+          "field": "その他"
+        }
+      ]
+    },
+    {
+      "type": "Checkbox",
+      "label": "初回ログイン",
+      "nestedArray": [
+        {
+          "field": ""
+        }
+      ]
+    },
+    {
+      "type": "MultiCheckbox",
+      "label": "理由",
+      "nestedArray": [
+        {
+          "field": "サービスを利用しない"
+        },
+        {
+          "field": "他社のサービスを利用している"
+        },
+        {
+          "field": "料金が高い"
+        }
+      ]
+    },
+    {
+      "type": "Textarea",
+      "label": "備考",
+      "nestedArray": [
+        {
+          "field": ""
+        }
+      ]
+    }
+  ]
+}

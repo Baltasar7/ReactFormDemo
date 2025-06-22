@@ -1,0 +1,98 @@
+{
+  "formArray": [
+    {
+      "type": "Textbox",
+      "label": "氏名",
+      "nestedArray": [
+        {
+          "field": ""
+        }
+      ],
+      "answer": "山田太郎"
+    },
+    {
+      "type": "Textbox",
+      "label": "年齢",
+      "nestedArray": [
+        {
+          "field": ""
+        }
+      ],
+      "answer": "29"
+    },
+    {
+      "type": "Radiobutton",
+      "label": "性別",
+      "nestedArray": [
+        {
+          "field": "男性"
+        },
+        {
+          "field": "女性"
+        },
+        {
+          "field": "回答しない"
+        }
+      ],
+      "answer": "男性"
+    },
+    {
+      "type": "Selectbox",
+      "label": "職種",
+      "nestedArray": [
+        {
+          "field": "会社員"
+        },
+        {
+          "field": "自営業"
+        },
+        {
+          "field": "経営者"
+        },
+        {
+          "field": "その他"
+        }
+      ],
+      "answer": "会社員"
+    },
+    {
+      "type": "Checkbox",
+      "label": "初回ログイン",
+      "nestedArray": [
+        {
+          "field": ""
+        }
+      ],
+      "answer": true
+    },
+    {
+      "type": "MultiCheckbox",
+      "label": "理由",
+      "nestedArray": [
+        {
+          "field": "サービスを利用しない"
+        },
+        {
+          "field": "他社のサービスを利用している"
+        },
+        {
+          "field": "料金が高い"
+        }
+      ],
+      "answer": [
+        "他社のサービスを利用している",
+        "料金が高い"
+      ]
+    },
+    {
+      "type": "Textarea",
+      "label": "備考",
+      "nestedArray": [
+        {
+          "field": ""
+        }
+      ],
+      "answer": "とくになし"
+    }
+  ]
+}
